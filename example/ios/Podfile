@@ -5,7 +5,7 @@ platform :ios, '8.0'
 
 # Change 'AirMapsExplorer' to match the target in your Xcode project.
 target 'AirMapsExplorer' do
-  rn_path = '../../node_modules/react-native'
+  rn_path = '../node_modules/react-native'
 
   pod 'Yoga', path: "#{rn_path}/ReactCommon/yoga/Yoga.podspec"
   pod 'React', path: rn_path, subspecs: [
